@@ -219,6 +219,7 @@ body {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  box-shadow: 10px 13px 8px 5px rgba(3, 3, 3, 0.1);
 }
 .box-shadow-full {
   padding: 3rem 1.25rem;
@@ -290,6 +291,7 @@ body {
   border-radius: 1rem;
   margin-bottom: 3rem;
   max-height: 450px;
+  box-shadow: 10px 13px 8px 5px rgba(3, 3, 3, 0.1);
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
@@ -349,6 +351,50 @@ body {
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
+}
+
+/*======================================
+//--//-->   PORTFOLIO
+======================================*/
+
+.work-box {
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow: 10px 13px 8px 5px rgba(3, 3, 3, 0.1);
+}
+.work-box:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.work-img img {
+  transition: all 1s;
+}
+.work-img {
+  overflow: hidden;
+}
+.work-content {
+  padding: 2rem 3% 1rem 4%;
+}
+.work-content .w-more {
+  color: #4e4e4e;
+  font-size: .8rem;
+}
+.work-content .w-more .w-ctegory {
+  color: #0078ff;
+}
+.work-content .w-like {
+  font-size: 2.5rem;
+  color: #0078ff;
+  float: right;
+}
+.work-content .w-like a {
+  color: #0078ff;
+}
+.work-content .w-like .num-like {
+  font-size: .7rem;
+}
+.w-title {
+  font-size: 1.2rem;
 }
 
 /*======================================

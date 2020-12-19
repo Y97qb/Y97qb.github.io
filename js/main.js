@@ -41,4 +41,10 @@
 	});
 	/*--/ End Scrolling nav /--*/
 
+	/*--/ Star Counter /--*/
+	$('.counter').counterUp({
+		delay: 15,
+		time: 2000
+	});
+
 })(jQuery);
