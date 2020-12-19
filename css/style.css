@@ -26,6 +26,9 @@ body {
   background-color: #0078ff;
   margin: 0 auto;
 }
+.paralax-mf{
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
 
 /*======================================
 //--//-->   NAVBAR
@@ -277,14 +280,6 @@ body {
   padding-bottom: 2.1rem;
 }
 
-.box-shadow,
-.paralax-mf,
-.service-box,
-.work-box,
-.card-blog {
-  box-shadow: 3px 11px 8px 8px rgba(0, 0, 0, 0.1);
-}
-
 /*======================================
 //--//-->   SERVICES
 ======================================*/
@@ -294,6 +289,7 @@ body {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  max-height: 450px;
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
@@ -317,6 +313,42 @@ body {
 }
 .service-box .s-description {
   color: #4e4e4e;
+}
+
+/*======================================
+//--//-->   COUNTER
+======================================*/
+
+.counter-box {
+  color: #fff;
+  text-align: center;
+}
+.counter-ico {
+  margin-bottom: 1rem;
+}
+.counter-ico .ico-circle {
+  height: 60px;
+  width: 60px;
+  line-height: 1.8;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.overlay-mf {
+  background-color: #0078ff;
+}
+
+.overlay-mf {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+
+.paralax-mf {
+  position: relative;
+  padding: 8rem 0;
 }
 
 /*======================================
@@ -357,4 +389,13 @@ body {
   display: block;
 }
 
-
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 577px) {
+  .counter-box {
+    margin-bottom: 1.8rem;
+  }
+}
