@@ -57,14 +57,15 @@ a:hover {
   padding-left: 0;
   margin-bottom: 0;
 }
-
 .list-ico {
   line-height: 2;
 }
-
 .list-ico span {
   color: #0078ff;
   margin-right: 10px;
+}
+.more-info .list-ico li span{
+  font-size: 20px;
 }
 
 /*------/ Socials /------*/
@@ -76,7 +77,7 @@ a:hover {
 }
 .socials .ico-circle {
   height: 40px;
-  width: 40px;
+  width: 39px;
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
@@ -456,6 +457,25 @@ a:hover {
 }
 .w-title {
   font-size: 1.2rem;
+}
+
+/*======================================
+//--//-->   FOOTER
+======================================*/
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 4rem;
+}
+footer .copyright {
+  margin-bottom: .3rem;
+}
+footer .credits a {
+  color: #fff;
+}
+.footer-paralax {
+  padding: 4rem 0 0 0;
 }
 
 /*======================================
